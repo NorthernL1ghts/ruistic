@@ -1,13 +1,3 @@
-  ____  _    _ _   _ _____ _____ _   _  _____
- |  _ \| |  | | \ | |_   _|_   _| \ | |/ ____|
- | |_) | |  | |  \| | | |   | | |  \| | |
- |  _ <| |  | | . ` | | |   | | | . ` | |
- | |_) | |__| | |\  |_| |_ _| |_| |\  | |____
- |____/ \____/|_| \_|_____|_____|_| \_|\_____|
- [Rust-powered Language Interpreter]
-
-```
-
 # Ruistic
 
 Ruistic is a lightweight, custom programming language interpreter written in Rust. Features include a custom lexer, recursive descent parser, and tree-walk interpreter. Supports variables, control flow, functions, and arithmetic operations. Built as a learning exercise in language design and Rust.
