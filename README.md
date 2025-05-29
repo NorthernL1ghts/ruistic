@@ -1,62 +1,48 @@
 # Ruistic
 
-A lightweight, fun programming language interpreter written in Rust. Ruistic is a simple yet powerful scripting language that combines the safety of Rust with an easy-to-learn syntax.
+Ruistic is a lightweight, custom programming language interpreter written in Rust. Features include a custom lexer, recursive descent parser, and tree-walk interpreter. Supports variables, control flow, functions, and arithmetic operations. Built as a learning exercise in language design and Rust.
 
 ## Features
 
-- Simple and intuitive syntax
-- Fast execution
-- Built with Rust for performance and safety
-- Easy to extend and modify
+- Custom lexer/scanner implementation
+- Recursive descent parser
+- Tree-walk interpreter
+- Support for variables and control flow
+- Function definitions and calls
+- Basic arithmetic operations
 
 ## Installation
 
 ### Prerequisites
 
 - Rust (latest stable version)
-- Cargo (comes with Rust)
+- Cargo (Rust's package manager)
 
 ### Building from Source
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/NorthernL1ghts/ruistic.git
 cd ruistic
-```
-
-2. Build the project:
-```bash
 cargo build --release
 ```
 
-The executable will be available in `target/release/ruistic`.
-
 ## Usage
 
-### Running a Script
-
 ```bash
-cargo run path/to/your/script.rst
-```
+# Run the interpreter
+cargo run
 
-### Example Script
-
-See [test.rst](ruistic/test.rst) for a simple example:
-
-```rust
-// test.rst
-for (var i = 0; i < 4; i = i + 1) {
-    print i;
-}
+# Run with a specific file
+cargo run -- path/to/script.ru
 ```
 
 ## Language Features
 
-- Variables and basic data types
-- Control flow (if/else, loops)
-- Functions
+- Variable declarations and assignments
+- Control flow (if/else, while loops)
+- Function definitions and calls
 - Basic arithmetic operations
-- Print statements
+- Print statements for output
 
 ## Contributing
 
@@ -64,7 +50,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
 
@@ -72,5 +58,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Inspired by the Lox language from "Crafting Interpreters"
-- Built with Rust's excellent tooling and ecosystem
+- Inspired by the book "Crafting Interpreters" by Robert Nystrom
+- Built as a learning exercise in Rust and language design
