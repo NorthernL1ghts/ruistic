@@ -48,3 +48,9 @@ coverage/
 
 # Keep docs
 !docs/
+
+# Rust build directory
+target/
+
+# OS specific files
+Thumbs.db
