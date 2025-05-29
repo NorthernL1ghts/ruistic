@@ -1,0 +1,50 @@
+# Rust specific
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Other
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+*.pdb
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test coverage
+coverage/
+*.profraw
+
+# Backup files
+*.bak
+*~
+
+# Logs
+*.log
+
+# Keep docs
+!docs/

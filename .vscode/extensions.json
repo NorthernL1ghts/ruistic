@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "rust-lang.rust-analyzer",
+        "ms-vscode.cpptools",
+        "esbenp.prettier-vscode",
+        "pkief.material-icon-theme",
+        "zhuangtongfa.Material-theme",
+        "streetsidesoftware.code-spell-checker",
+        "editorconfig.editorconfig"
+    ]
+}
