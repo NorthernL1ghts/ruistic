@@ -1,4 +1,4 @@
-![Ruistic Logo](resources/LOGO.png)
+![Ruistic Logo](resources/LOGO.jpg)
 
 # Ruistic
 
